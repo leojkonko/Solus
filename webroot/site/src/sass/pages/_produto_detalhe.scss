@@ -1,0 +1,20 @@
+form {
+    & textarea {
+        height: 160px;
+    }
+}
+
+.shadow {
+    box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.15);
+}
+
+.mais-empreendimentos {
+    & .padding-top-border-section {
+        margin-top: 160px;
+        padding-bottom: 50px !important;
+    }
+
+    & .border-section-titulo {
+        margin-top: -100px;
+    }
+}

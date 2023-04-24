@@ -1,0 +1,176 @@
+.cultura {
+    position: relative;
+
+    @media(max-width: 992px) {
+        background-image: url(../images/banners/cultura.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    & .cont-position {
+        position: absolute;
+        left: 50%;
+        top: -60%;
+        transform: translate(-50%);
+
+        @media(max-width: 1500px) {
+            top: -46%;
+        }
+
+        @media(max-width: 1200px) {
+            top: -32%;
+        }
+
+        @media(max-width: 992px) {
+            //position: relative;
+            top: 0%;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+
+    & .conteudo-mobile {
+        padding-top: 80px;
+        padding-bottom: 150px;
+    }
+}
+
+.compromisso {
+    position: relative;
+    margin-top: 610px;
+
+    & .borda-redonda {
+        background-color: #f0f0f0;
+        width: 180%;
+        margin-left: -40%;
+        height: 980px;
+        border-radius: 50% 50% 0px 0px;
+        position: absolute;
+        bottom: 100%;
+        overflow: hidden;
+
+        @media(max-width: 992px) {
+            width: 260%;
+            margin-left: -80%;
+        }
+
+        @media(max-width: 767px) {
+            height: 1180px;
+        }
+
+        @media(max-width: 550px) {
+            height: 1350px;
+        }
+
+        @media(max-width: 450px) {
+            height: 1400px;
+        }
+
+        @media(max-width: 400px) {
+            height: 1500px;
+        }
+
+        @media(max-width: 576px) {
+            width: 400%;
+            margin-left: -150%;
+        }
+    }
+
+    & .criancas {
+        position: absolute;
+        top: 0;
+        left: 22%;
+
+        @media(max-width: 767px) {
+            height: 100%;
+        }
+    }
+
+    & .conteudo-compromisso {
+        position: relative;
+        margin-top: 150px;
+        margin-bottom: 100px;
+
+        @media(max-width: 767px) {
+            margin-top: 80px;
+        }
+
+        @media(max-width: 576px) {
+            text-align: center;
+
+            & p,
+            .text-primary {
+                width: 23%;
+                margin: auto;
+            }
+
+            //padding: 0px 450px;
+        }
+    }
+
+    @media(max-width: 1500px) {
+        margin-top: 800px;
+    }
+
+    @media(max-width: 1200px) {
+        margin-top: 890px;
+    }
+
+    @media(max-width: 992px) {
+        margin-top: 900px;
+    }
+
+    @media(max-width: 767px) {
+        margin-top: 1080px;
+    }
+
+    @media (min-width: 450px) and (max-width: 550px) {
+        margin-top: 1250px;
+    }
+
+    @media (max-width: 450px) {
+        margin-top: 1320px;
+    }
+
+    @media (max-width: 400px) {
+        margin-top: 1400px;
+    }
+}
+
+.parceiros {
+    position: relative;
+    //margin-top: 1900px;
+
+    & .borda-redonda {
+        background-color: white;
+        width: 140%;
+        margin-left: -20%;
+        height: 500px;
+        border-radius: 50% 50% 0px 0px;
+        position: absolute;
+        bottom: 100%;
+        overflow: hidden;
+
+        & .conteudo-parceiros {
+            margin-top: 200px;
+        }
+
+    }
+
+    & .parceiros-swiper {
+        position: initial;
+
+        & .arrows {
+            top: 60%;
+        }
+
+        & .swiper-button-next {
+            right: -10px;
+        }
+
+        & .swiper-button-prev {
+            left: -10px;
+        }
+    }
+}

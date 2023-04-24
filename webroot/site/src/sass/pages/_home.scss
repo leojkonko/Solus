@@ -1,0 +1,186 @@
+.html {
+    overflow-x: hidden;
+}
+
+.historia {
+
+    & .sombra-amarela::after {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        right: 25px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-image: url(../images/banners/sombra-amarela.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.border-section::before {
+    //background-color: #f0f0f0;
+    content: '';
+    width: 105%;
+    position: absolute;
+    bottom: -238px;
+    left: -50px;
+    height: 520px;
+    border-radius: 50% 50% 0px 0px;
+    overflow: hidden;
+}
+
+.empreendimentos {
+    & .border-section::before {
+        background-color: #f0f0f0;
+        background-image: url(../images/banners/riscos1.svg);
+        background-repeat: no-repeat;
+        background-position: 85%;
+        width: 135%;
+        left: -18%;
+
+        @media(max-width: 576px) {
+            width: 180%;
+            left: -40%;
+        }
+    }
+
+    & .riscos {
+        position: absolute;
+        right: 0;
+        top: -170px;
+    }
+
+    & .empreendimentos-swiper {
+        //padding: 80px !important;
+
+        & .swiper-slide {
+            filter: drop-shadow(10px 10px 8px rgba(0, 0, 0, 0.15))
+        }
+    }
+
+    .border-section-titulo {
+        margin-top: -180px;
+        margin-bottom: 20px;
+    }
+}
+
+.depoimentos {
+    & .border-section::before {
+        background-color: white;
+        background-image: url(../images/banners/riscos2.svg);
+        background-repeat: no-repeat;
+        background-position-x: 30%;
+        background-position-y: 700%;
+        height: 520px;
+        width: 200%;
+        bottom: -1250px;
+        height: 1450px;
+        left: -50%;
+
+        @media(max-width: 992px) {
+            width: 230%;
+            left: -65%;
+        }
+    }
+
+    .padding-top-border-section {
+        margin-top: 330px;
+        position: relative;
+        z-index: 1;
+        padding-bottom: 0px;
+    }
+
+    .riscos {
+        position: absolute;
+        left: 0;
+        top: -500px;
+    }
+
+    & .depoimentos-swiper {
+        padding: 80px;
+
+        @media(max-width: 767px) {
+            padding: 50px;
+        }
+
+        @media(max-width: 576px) {
+            padding: 25px;
+        }
+
+        & .swiper-slide {
+            filter: drop-shadow(12px 00px 26px rgba(0, 0, 0, 0.15));
+        }
+    }
+}
+
+.blog-swiper {
+    position: initial !important;
+
+    & .swiper-slide {
+
+        //background-image: url(../images/banners/blog.png);
+        & img {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+        }
+    }
+
+    & .swiper-pagination {
+        bottom: -40px;
+    }
+}
+
+.blog {}
+
+.border-section-blog::before {
+    content: '';
+    width: 110%;
+    background-color: red;
+    position: absolute;
+    //bottom: -238px;
+    left: -50px;
+    height: 300px;
+    border-radius: 50% 50% 0px 0px;
+    overflow: hidden;
+}
+
+.svg-footer {
+    margin-top: -130px;
+    position: absolute;
+    bottom: -100px;
+
+    @media(min-width: 992px) and (max-width: 1200px) {
+        bottom: -120px;
+    }
+
+    @media (max-width: 992px) {
+        bottom: -134px;
+    }
+
+    @media (max-width: 576px) {
+        display: none;
+    }
+}
+
+.sombraa::before {
+    content: "";
+    display: flex;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    transform: rotate(-180deg);
+    border-radius: 40px;
+}
+
+.conteudo {
+    position: absolute;
+    bottom: 0;
+    z-index: 15;
+}
+
+.caxias {
+    //border: 10px solid blue;
+}
