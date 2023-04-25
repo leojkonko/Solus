@@ -9,7 +9,7 @@
                 <button class="rounded-36 text-white p-700 p-22-l-22 p-fsm-16 mx-1 mx-xl-0 my-1 my-xl-0">Informativos</button>
             </div>
                 <?php foreach(range(0,9) as $i) : ?>
-                    <div class="col-lg-4 col-6  position-relative my-2 card">
+                    <div class="col-lg-4 col-6  position-relative my-1 card">
                         <a href="<?= url('/blog-detalhe') ?>">
                             <div class="sombraa"></div>
                             <div class="ratio ratio-1x1 h-100 w-100">
