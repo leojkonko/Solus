@@ -84,7 +84,7 @@ var swiper = new Swiper(".teste-swiper", {
 
 });
 var swiper = new Swiper(".parceiros-swiper", {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 30,
     navigation: {
         nextEl: ".parceiros-swiper .swiper-button-next",
@@ -95,14 +95,17 @@ var swiper = new Swiper(".parceiros-swiper", {
         clickable: true
     },
     breakpoints: {
-        992: {
+        1200: {
             slidesPerView: 5,
         },
-        767: {
+        992: {
             slidesPerView: 4,
         },
-        576: {
+        767: {
             slidesPerView: 3,
+        },
+        576: {
+            slidesPerView: 2,
         },
     },
 

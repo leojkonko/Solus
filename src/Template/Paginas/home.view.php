@@ -232,11 +232,11 @@
                         <h2 class="h2 text-primary">Quem confia</h2>
                     </div>
                     <div class="swiper depoimentos-swiper p-3">
-                        <div class="swiper-wrapper mb-2 mb-lg-0">
+                        <div class="swiper-wrapper mb-2 mb-md-0">
                             <?php foreach(range(0,9) as $i) : ?>
                                 <div class="swiper-slide p-0">
                                     <div class="row">
-                                        <div class="col-lg-8 padding-interno bg-white rounded-36-left d-flex align-items-center flex-column position-relative text-center text-sm-start">
+                                        <div class="col-lg-8 padding-interno bg-white rounded-36-left rounded-36-top d-flex align-items-center flex-column position-relative text-center text-sm-start">
                                         <p class="p-16 p-400">Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido 
                                         pegou uma galera de tipos e os embaralhou para fazer um livro de espécimes de tipos.Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão.</p>
                                         <br><br>
@@ -255,7 +255,7 @@
                                         </div>
                                         <div class="col-lg-4 p-0">
                                             <div class="ratio ratio-1x1 w-100 h-100">
-                                                <img class="w-100 h-100 object-fit-cover rounded-36-right" src="<?= asset('images/banners/depoimentos.png') ?>" alt="">
+                                                <img class="w-100 h-100 object-fit-cover rounded-36-right rounded-36-bottom" src="<?= asset('images/banners/depoimentos.png') ?>" alt="">
                                             </div>
                                         </div>
                                 </div>

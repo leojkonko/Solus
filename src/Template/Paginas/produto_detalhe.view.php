@@ -1,9 +1,9 @@
-<main id="produto" class="detalhe pt-lg-4 pt-2">
+<main id="produto" class="detalhe pt-3">
     <section class="imovel">
         <div class="container"> 
             <div class="row my-2 mx-1 mx-md-0">
                 <div class="col-lg-8 ps-0 p-0">
-                    <div class="swiper detalhes-swiper">
+                    <div class="swiper h-100 detalhes-swiper">
                         <div class="swiper-wrapper">
                             <?php foreach(range(0,5) as $i) : ?>
                                 <div class="swiper-slide flex-column d-flex  pe-md-3, pe-lg-0">
@@ -20,9 +20,9 @@
                                     </div>
                                 <?php endforeach; ?>
                                 </div>    
-                            <div class="swiper-pagination color-warning"></div>
-                            <div class="swiper-button-next arrows none-lg"></div>
-                            <div class="swiper-button-prev arrows none-lg"></div>
+                            <!--<div class="swiper-pagination color-warning"></div>-->
+                            <div class="swiper-button-next arrows"></div>
+                            <div class="swiper-button-prev arrows"></div>
                         </div>
                     </div>
                 <div class="col-lg-4 bg-secondary rounded-36-right rounded-36-bottom px-lg-3 px-2 text-center text-sm-start">
@@ -59,9 +59,11 @@
                         Vamos conversar sobre o seu desejo e realizar esse sonho juntos!
                         </span></p>
                         <div class="text-center text-lg-start">
-                            <button class="btn-header btn btn-warning-custom rounded-36 text-white p-700 p-16 mt-2">
-                                Personalizar
-                            </button>
+                            <a href="#personalizar" onclick="alterarInput()">
+                                <button class="btn-header btn btn-warning-custom rounded-36 text-white p-700 p-16 mt-2">
+                                    Personalizar
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +94,7 @@
                     <li>Pensado para o seu conforto</li>
                     <li>Janela estrategicamente posicionadas</li>
                 </ul>
-                <ul class="col-lg-6 p-400 p-16 ms-1">
+                <ul class="col-lg-6 p-400 p-16 ms-1 ms-sm-2">
                     <li>Espaço</li>
                     <li>Privacidade</li>
                     <li>Qualidade</li>
@@ -108,7 +110,7 @@
     <section class="my-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 bg-secondary d-flex align-items-center flex-column p-lg-4 p-2 rounded-36-left">
+                <div class="col-lg-9 bg-secondary d-flex align-items-center flex-column p-lg-4 p-2 rounded-36-left rounded-36-top">
                     <h2 class="p-22-l-22 p-700 text-primary w-100 text-lg-start text-center mt-1 mt-lg-0">Onde você vai morar?</h2>
                     <p class="p-16 p-400 mt-2 text-lg-start text-center">
                     O bairro é um lugar tranquilo e acolhedor, onde as pessoas se conhecem e se ajudam. Nele, é possível encontrar ruas arborizadas, praças bem cuidadas e 
@@ -118,7 +120,7 @@
                     </p>
                 </div>
                 <div class="col-lg-3 p-0">
-                <iframe class="rounded-36-right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.3792685426934!2d-51.19463441164262!3d-29.15349392705367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea2cff5f2e973%3A0xc4e4e9080a947950!2sSolus%20Incorporadora%20Ltda!5e0!3m2!1spt-BR!2sbr!4v1682346139196!5m2!1spt-BR!2sbr" 
+                <iframe class="rounded-36-right rounded-36-bottom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.3792685426934!2d-51.19463441164262!3d-29.15349392705367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951ea2cff5f2e973%3A0xc4e4e9080a947950!2sSolus%20Incorporadora%20Ltda!5e0!3m2!1spt-BR!2sbr!4v1682346139196!5m2!1spt-BR!2sbr" 
                     width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
@@ -149,22 +151,22 @@
     <section class="form position-relative z-index-3">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 m-lg-auto d-flex flex-column align-items-center justify-content-center py-lg-4 px-lg-4 p-2 rounded-36 shadow">
+                <div class="col-lg-8 bg-white m-lg-auto d-flex flex-column align-items-center justify-content-center py-lg-4 px-lg-4 p-2 rounded-36 shadow">
                     <h2 class="h2 text-primary">Entre em contato</h2>
                     <p class="p-16 p-400 ">
                     Preencha o formulário e a nossa equipe vai te chamar o quanto antes!
                     </p>
-                    <form action="" class="w-100 px-0">
+                    <form action="" class="w-100 px-0" id="personalizar">
                         <div class="d-flex mt-1 px-2 px-lg-0">
-                            <input type="checkbox" id="checkbox" class="me-1 checkbox"/>
                             <p class="p-16 p-400 text-center w-100">
-                            <label class="label" for="checkbox"></label>
+                            <input type="checkbox" id="checkbox-detalhe" class="me-1"/>
+                            <label class="label" for="checkbox-detalhe"></label>
                             Li e estou ciente da <span class="border-bottom p-700">Política de Privacidade</span> da Solus Incorporadora.
                             </p>
                         </div>
                         <div class="my-2">
                             <input type="text" class="input-group p-16 p-400" placeholder="Nome completo*">
-                            <div class="d-flex gap-1">
+                            <div class="d-lg-flex gap-1">
                                 <input type="text" class="input-group mt-1 p-16 p-400 mask-telefone" placeholder="Telefone*">
                                 <input type="email" class="input-group mt-1 p-16 p-400" placeholder="Email*">
                             </div>
@@ -199,9 +201,9 @@
                                 <div class="swiper empreendimentos-swiper">
                                     <div class="swiper-wrapper mb-4 p-sm-1">
                                         <?php foreach(range(0,9) as $i) : ?>
-                                            <div class="swiper-slide flex-column d-flex col-lg-6 col-12 pe-md-3 pe-lg-0">
+                                            <div class="swiper-slide p-1 p-sm-0 flex-column d-flex col-lg-6 col-12 pe-md-3 pe-lg-0">
                                                 <div class="row">
-                                                    <div class="col-lg-6 bg-white rounded-36-left p-s p-sm-4 p-md-2 text-center text-sm-start">
+                                                    <div class="col-lg-6 bg-white rounded-36-left rounded-36-top p-sm-4 p-md-2 text-center text-sm-start">
                                                         <div class="d-xl-flex d-lg-block gap-1 m-auto pt-2 pt-sm-0 position-lg-absolute">
                                                             <button class="mb-lg-0-50 mb-xl-0 btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-warning">ENTREGA EM JUNHO</button>
                                                             <button class=" btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-warning">ÚLTIMAS UNIDADES</button>
@@ -257,7 +259,7 @@
                                                     </div>
                                                     <div class="col-lg-6 ps-0 pe-lg-3 p-0">
                                                         <div class="ratio ratio-6x9 h-100 w-100">
-                                                            <img class="w-100 h-100 object-fit-cover rounded-36-right" src="<?= asset('images/banners/empreendimentos.png') ?>" alt="">
+                                                            <img class="w-100 h-100 object-fit-cover rounded-36-right rounded-36-bottom" src="<?= asset('images/banners/empreendimentos.png') ?>" alt="">
                                                         </div>
                                                     </div>
                                                 </div>

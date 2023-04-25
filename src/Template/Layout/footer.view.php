@@ -1,25 +1,25 @@
-<footer class="bg-azul pt-lg-4 position-relative z-index-1">
+<footer class="bg-azul pt-lg-2 position-relative z-index-1">
     <div class="">
         <div class="row px-lg-3 d-flex justify-content-center">
             <div class="col-12 d-flex justify-content-center align-items-center flex-column d-flex d-lg-none my-4">
-                <img width="365px" src="<?= asset('images/logos/logo-footer.png') ?>" alt="">
+                <a href="<?= url('/') ?>"><img width="365px" src="<?= asset('images/logos/logo-footer.png') ?>" alt=""></a>
             </div>
             <div class="col-lg-6 col-xl-2 d-flex justify-content-center align-items-center flex-column">
                 <ul class="list-unstyled text-center text-lg-start">
                     <li>
-                        <a class="p p-16 p-400 text-white" href="">Home</a>
+                        <a class="p p-16 p-400 text-white" href="<?= url('/produto-detalhe') ?>">Home</a>
                     </li>
                     <li>
-                        <a class="p p-16 p-400 text-white" href="">Sobre nós</a>
+                        <a class="p p-16 p-400 text-white" href="<?= url('/empresa') ?>">Sobre nós</a>
                     </li>
                     <li>
-                        <a class="p p-16 p-400 text-white" href="">Empreendimento</a>
+                        <a class="p p-16 p-400 text-white" href="<?= url('/produtos') ?>">Empreendimento</a>
                     </li>
                     <li>
-                        <a class="p p-16 p-400 text-white" href="">Blog</a>
+                        <a class="p p-16 p-400 text-white" href="<?= url('/Blog') ?>">Blog</a>
                     </li>
                     <li>
-                        <a class="p p-16 p-400 text-white" href="">Contato</a>
+                        <a class="p p-16 p-400 text-white" href="<?= url('/contato') ?>">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -105,21 +105,21 @@
                 <input type="checkbox" id="checkbox-footer" class="me-1"/>
                 <label for="checkbox-footer"></label>
                     <p class="p-16 p-400 text-white">
-                    Li e estou ciente da <span class="border-bottom p-700">Política de Privacidade</span> da Solus Incorporadora.
+                    Li e estou ciente da <a href="<?= url('/politica-de-privacidade') ?>"><span class="border-bottom p-700 text-white">Política de Privacidade</span></a> da Solus Incorporadora.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="copyright bg-primary-custom w-100 d-lg-flex px-lg-4 px-2 py-2 py-lg-1 mt-lg-4 mt-1">
+    <div class="copyright bg-primary-custom w-100 d-lg-flex px-lg-4 px-2 py-2 py-lg-1 mt-lg-2 mt-1">
             <div class="col-lg-4 col-12 d-flex justify-content-center text-center">
-                <p class=" p-16 p-400 border-bottom text-white pt-1">Gerenciar preferência de cookies</p>
+                <a href="" target="_blank"><p class=" p-14 p-400 border-bottom text-white pt-1">Gerenciar preferência de cookies</p></a>
             </div>
             <div class="col-lg-4 col-12 d-flex justify-content-center text-center py-1 py-lg-0">
-                <p class="p-16 p-400 text-white">Copyright © 2023 Solus Incorporadora. Todos os direitos reservados. CNPJ 00.000.000/0000-00</p>
+                <p class="p-14 p-400 text-white mt-lg-0-50">Copyright © 2023 Solus Incorporadora. Todos os direitos reservados. CNPJ 00.000.000/0000-00</p>
             </div>
             <div class="col-lg-4 col-12 d-flex justify-content-center">
-                <p class=" p-16 p-400 text-white pt-1"><a href="" target="_blank"><svg width="78" height="17" viewBox="0 0 78 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <p class=" p-16 p-400 text-white pt-1"><a href="https://www.ellitedigital.com.br/" target="_blank"><svg width="78" height="17" viewBox="0 0 78 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13.168 14.0833H5.42779C4.35236 14.0833 3.47947 13.2078 3.47947 12.1291V9.57514C3.47947 8.49646 4.35236 7.62095 5.42779 7.62095H13.2162C14.7136 7.62095 15.9265 6.40442 15.9265 4.9025C15.9265 4.79366 15.8397 4.70417 15.7312 4.70417H4.30654C1.92902 4.70176 0 6.6366 0 9.02129V12.6733C0 15.058 1.92902 16.9928 4.30654 16.9928H6.55385C6.63825 16.9953 6.72264 17.0001 6.80945 17.0001H10.653C12.1504 17.0001 13.3633 15.7836 13.3633 14.2816C13.3633 14.1728 13.2765 14.0833 13.168 14.0833Z" fill="white"/>
                     <path d="M16.5269 0.0170213H14.2796C14.1952 0.0146027 14.1108 0.00976562 14.024 0.00976562H10.1804C8.68301 0.00976562 7.47014 1.2263 7.47014 2.72822C7.47014 2.83705 7.55694 2.92654 7.66545 2.92654H15.4057C16.4811 2.92654 17.354 3.80205 17.354 4.88073V7.43472C17.354 8.51339 16.4811 9.38891 15.4057 9.38891H7.61723C6.11982 9.38891 4.90695 10.6054 4.90695 12.1074C4.90695 12.2162 4.99376 12.3057 5.10226 12.3057H16.5245C18.902 12.3057 20.831 10.3708 20.831 7.98615V4.33414C20.8334 1.95186 18.9068 0.0170213 16.5269 0.0170213Z" fill="white"/>
                     <path d="M42.6917 0H42.3613C40.7434 0 39.434 1.31569 39.434 2.93612V15.2683C39.434 15.3917 39.5353 15.4932 39.6583 15.4932H39.9886C41.6066 15.4932 42.9159 14.1776 42.9159 12.5571V0.224925C42.9159 0.101579 42.8147 0 42.6917 0Z" fill="white"/>
@@ -135,6 +135,18 @@
             </div>
         </div>
 </footer>
+<div class="position-fixed bottom-0 end-0 m-1 m-md-2 m-xxl-3 botao-whatsapp-wrapper">
+    <a href="https://web.whatsapp.com/send?phone=55" class="botao-whatsapp botao-whatsapp-hoverable position-relative rounded-pill overflow-hidden" aria-hidden="true" tabindex="-1" title="Fale conosco atrav&eacute;s do WhatsApp">
+        <svg id="whatsapp" width="1em" height="1em" viewBox="0 0 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M207.15 47.8406C186.013 26.6531 157.864 15 127.95 15C66.2031 15 15.9585 65.2446 15.9585 126.991C15.9585 146.716 21.104 165.986 30.8906 182.987L15 241L74.3754 225.412C90.7201 234.341 109.133 239.033 127.899 239.033H127.95C189.646 239.033 241 188.788 241 127.042C241 97.1268 228.287 69.0281 207.15 47.8406V47.8406ZM127.95 220.166C111.201 220.166 94.8062 215.676 80.5299 207.201L77.15 205.183L41.9384 214.415L51.3214 180.061L49.1018 176.529C39.7692 161.698 34.8759 144.597 34.8759 126.991C34.8759 75.6871 76.6455 33.9174 128 33.9174C152.87 33.9174 176.227 43.6031 193.782 61.2089C211.337 78.8147 222.133 102.171 222.083 127.042C222.083 178.396 179.254 220.166 127.95 220.166V220.166ZM179.001 150.449C176.227 149.036 162.455 142.276 159.882 141.368C157.309 140.41 155.443 139.956 153.576 142.781C151.71 145.606 146.362 151.861 144.698 153.778C143.083 155.645 141.419 155.897 138.644 154.484C122.199 146.262 111.403 139.804 100.557 121.19C97.6817 116.246 103.433 116.599 108.78 105.904C109.688 104.038 109.234 102.424 108.528 101.011C107.821 99.5987 102.222 85.8268 99.9013 80.2272C97.6312 74.779 95.3107 75.5357 93.5955 75.4348C91.9812 75.3339 90.1147 75.3339 88.2482 75.3339C86.3817 75.3339 83.3549 76.0402 80.7821 78.8147C78.2094 81.6397 70.9955 88.3996 70.9955 102.171C70.9955 115.943 81.0344 129.261 82.3964 131.128C83.8089 132.994 102.121 161.244 130.22 173.402C147.977 181.07 154.938 181.725 163.817 180.414C169.215 179.607 180.363 173.654 182.684 167.096C185.004 160.538 185.004 154.938 184.298 153.778C183.642 152.517 181.776 151.811 179.001 150.449Z"/>
+        </svg>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=11" class="botao-whatsapp botao-whatsapp-not-hoverable position-relative rounded-pill overflow-hidden" aria-label="Fale conosco atrav&eacute;s do WhatsApp" title="Fale conosco atrav&eacute;s do WhatsApp">
+        <svg id="whatsapp" width="1em" height="1em" viewBox="0 0 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M207.15 47.8406C186.013 26.6531 157.864 15 127.95 15C66.2031 15 15.9585 65.2446 15.9585 126.991C15.9585 146.716 21.104 165.986 30.8906 182.987L15 241L74.3754 225.412C90.7201 234.341 109.133 239.033 127.899 239.033H127.95C189.646 239.033 241 188.788 241 127.042C241 97.1268 228.287 69.0281 207.15 47.8406V47.8406ZM127.95 220.166C111.201 220.166 94.8062 215.676 80.5299 207.201L77.15 205.183L41.9384 214.415L51.3214 180.061L49.1018 176.529C39.7692 161.698 34.8759 144.597 34.8759 126.991C34.8759 75.6871 76.6455 33.9174 128 33.9174C152.87 33.9174 176.227 43.6031 193.782 61.2089C211.337 78.8147 222.133 102.171 222.083 127.042C222.083 178.396 179.254 220.166 127.95 220.166V220.166ZM179.001 150.449C176.227 149.036 162.455 142.276 159.882 141.368C157.309 140.41 155.443 139.956 153.576 142.781C151.71 145.606 146.362 151.861 144.698 153.778C143.083 155.645 141.419 155.897 138.644 154.484C122.199 146.262 111.403 139.804 100.557 121.19C97.6817 116.246 103.433 116.599 108.78 105.904C109.688 104.038 109.234 102.424 108.528 101.011C107.821 99.5987 102.222 85.8268 99.9013 80.2272C97.6312 74.779 95.3107 75.5357 93.5955 75.4348C91.9812 75.3339 90.1147 75.3339 88.2482 75.3339C86.3817 75.3339 83.3549 76.0402 80.7821 78.8147C78.2094 81.6397 70.9955 88.3996 70.9955 102.171C70.9955 115.943 81.0344 129.261 82.3964 131.128C83.8089 132.994 102.121 161.244 130.22 173.402C147.977 181.07 154.938 181.725 163.817 180.414C169.215 179.607 180.363 173.654 182.684 167.096C185.004 160.538 185.004 154.938 184.298 153.778C183.642 152.517 181.776 151.811 179.001 150.449Z"/>
+        </svg>
+    </a>
+</div>
 
 <?php /* ==== Scripts ==== */ ?>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -154,7 +166,14 @@
 /* ==== Arquivo para o pessoal do back end ==== 
 <script src="<?= asset('js/custom.js') ?>"></script>  
 */ ?>
+<script>
+    function alterarInput(){
+        var checkbox = document.getElementById("checkbox-detalhe");
 
+// marca o checkbox
+checkbox.checked = true;
+    }
+</script>
 </body>
 
 </html>

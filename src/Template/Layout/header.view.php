@@ -46,6 +46,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Manrope:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+    function initElliteLgdp() {
+        ElliteLgpdApi.init({
+            link_politica: "rota de politica do back",
+            variaveisCss: {
+                lgpdCorFundo: 'rgba(0, 0, 0, 0.9)',
+                lgpdCorTextoHover: 'var(--bs-success)',
+                lgpdCorBotaoAceite: '#3C7EBF',
+                lgpdCorBotaoAceiteHover: '#3C7EBF',
+                lgpdCorBotaoAceiteTexto: 'var(--bs-white)',
+                lgpdCorBotaoAceiteTextoHover: 'var(--bs-white)',
+                lgpdCorBotaoPreferencias: '#0a0a0a',
+                lgpdCorBotaoPreferenciasHover: '#272727',
+                lgpdCorBotaoPreferenciasTexto: '#FFF',
+                lgpdCorBotaoPreferenciasTextoHover: '#FFF',
+                lgpdCorBotaoModal: 'var(--bs-success)',
+                lgpdCorBotaoModalHover: '#3C7EBF',
+                lgpdCorBotaoModalTexto: 'var(--bs-white)',
+                lgpdCorBotaoModalTextoHover: 'var(--bs-white)',
+                lgpdBorderRadius: '.75rem',
+                lgpdFontFamily: "poppins",
+            },
+            idioma: 'pt',
+        });
+    }
+</script>
+<script src="https://lgpd.ellitedigital.com.br/lgpd/v1/lgpd.js?cliente=teste" crossorigin="anonymous" defer onLoad="initElliteLgdp()"></script>
 </head>
 
 <body>
@@ -55,7 +82,7 @@
         <div class="container">
             <div class="row px-lg-2">
                 <div class="col-6 d-flex justify-content-start">
-                    <a href="">
+                    <a href="<?= url('/') ?>">
                         <img width="220px" src="<?= asset('images/logos/logo.png') ?>" alt="">
                     </a>
                 </div>
@@ -108,7 +135,7 @@
                         <li>
                             <a class="p-24 p-700" href="<?= url('/contato') ?>">Contato</a>
                         </li>
-                        <li>
+                        <li class="d-block d-lg-none">
                             <a class="p-24 p-700" href="<?= url('/') ?>">
                                 Área restrita
                                 <svg class="ms-1" width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -182,9 +209,9 @@
                 <?php if (!empty($breadcrumbs)) : ?>
                     <section class="breadcrumb-wrapper">
                             <img class="position-relative z-index-background top-0 start-0" src="<?= asset('images/backgrounds/breadcrumb1.png') ?>" alt="">
-                       <div class="container">
+                       <div class="container position-relative">
                         <div class="position-absolute conteudo-bread z-index-1 text-lg-start text-center">
-                            <h2 class="h2 p-700 text-white">Bem-vindo! Conheça mais sobre a Solus</h2>
+                            <h2 class="h2 p-700 text-white px-1 px-sm-0">Bem-vindo! Conheça mais sobre a Solus</h2>
                             <div class="mt-1">
                                 <a href="">Home</a>
                                     <svg class=" mx-0-50" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -203,9 +230,9 @@
                 <?php if (!empty($breadcrumbs)) : ?>
                     <section class="breadcrumb-wrapper">
                             <img class="position-relative z-index-background top-0 start-0" src="<?= asset('images/backgrounds/breadcrumb3.png') ?>" alt="">
-                       <div class="container">
+                       <div class="container position-relative">
                         <div class="position-absolute conteudo-bread z-index-1 text-lg-start text-center">
-                            <h2 class="h2 p-700 text-white">Empreendimentos em Caxias do Sul</h2>
+                            <h2 class="h2 p-700 text-white px-1 px-sm-0">Empreendimentos em Caxias do Sul</h2>
                             <div class="mt-1">
                                 <a href="">Home</a>
                                     <svg class=" mx-0-50" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -224,15 +251,107 @@
                 <?php if (!empty($breadcrumbs)) : ?>
                     <section class="breadcrumb-wrapper">
                             <img class="position-relative z-index-background top-0 start-0" src="<?= asset('images/backgrounds/breadcrumb3.png') ?>" alt="">
-                       <div class="container">
+                       <div class="container position-relative">
                         <div class="position-absolute conteudo-bread z-index-1 text-lg-start text-center">
-                            <h2 class="h2 p-700 text-white">Empreendimentos em Caxias do Sul</h2>
+                            <h2 class="h2 p-700 text-white px-1 px-sm-0">Empreendimentos em Caxias do Sul</h2>
                             <div class="mt-1">
                                 <a href="">Home</a>
                                     <svg class=" mx-0-50" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 1L5 5L1 9" stroke="gray" stroke-miterlimit="10" stroke-linejoin="round"/>
                                     </svg>
-                                <a href="">Sobre nós</a>
+                                <a href="">Empreendimentos</a>
+                                    <svg class=" mx-0-50" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L1 9" stroke="gray" stroke-miterlimit="10" stroke-linejoin="round"/>
+                                    </svg>
+                                <a href="">Caxias do Sul</a>
+                            </div>
+                        </div>
+                       </div>
+                    </section>
+                <?php endif; ?>
+            </div>
+        <?php elseif ($pagina_atual === "blog") : ?>
+            <div class="header-wrapper position-relative">
+                <?= $header ?>
+                <?php if (!empty($breadcrumbs)) : ?>
+                    <section class="breadcrumb-wrapper">
+                    <img class="position-relative z-index-background top-0 start-0" src="<?= asset('images/backgrounds/breadcrumb1.png') ?>" alt="">
+                       <div class="container position-relative">
+                        <div class="position-absolute conteudo-bread z-index-1 text-lg-start text-center">
+                            <h2 class="h2 p-700 text-white">Blog</h2>
+                            <div class="mt-1">
+                                <a href="">Home</a>
+                                    <svg class=" mx-0-50" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L1 9" stroke="gray" stroke-miterlimit="10" stroke-linejoin="round"/>
+                                    </svg>
+                                <a href="">Blog</a>
+                            </div>
+                        </div>
+                       </div>
+                    </section>
+                <?php endif; ?>
+            </div>
+        <?php elseif ($pagina_atual === "blog_detalhe") : ?>
+            <div class="header-wrapper position-relative">
+                <?= $header ?>
+                <?php if (!empty($breadcrumbs)) : ?>
+                    <section class="breadcrumb-wrapper">
+                    <img class="position-relative z-index-background top-0 start-0" src="<?= asset('images/backgrounds/breadcrumb1.png') ?>" alt="">
+                       <div class="container position-relative">
+                        <div class="position-absolute conteudo-bread z-index-1 text-lg-start text-center">
+                            <h2 class="h2 p-700 text-white">Blog detalhe</h2>
+                            <div class="mt-1">
+                                <a href="">Home</a>
+                                    <svg class=" mx-0-50" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L1 9" stroke="gray" stroke-miterlimit="10" stroke-linejoin="round"/>
+                                    </svg>
+                                <a href="">Blog</a>
+                                    <svg class=" mx-0-50" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L1 9" stroke="gray" stroke-miterlimit="10" stroke-linejoin="round"/>
+                                    </svg>
+                                <a href="">Blog detalhe</a>
+                            </div>
+                        </div>
+                       </div>
+                    </section>
+                <?php endif; ?>
+            </div>
+        <?php elseif ($pagina_atual === "contato") : ?>
+            <div class="header-wrapper position-relative">
+                <?= $header ?>
+                <?php if (!empty($breadcrumbs)) : ?>
+                    <section class="breadcrumb-wrapper">
+                    <img class="position-relative z-index-background top-0 start-0" src="<?= asset('images/backgrounds/breadcrumb1.png') ?>" alt="">
+                       <div class="container position-relative">
+                        <div class="position-absolute conteudo-bread z-index-1 text-lg-start text-center">
+                            <h2 class="h2 p-700 text-white">Contato</h2>
+                            <div class="mt-1">
+                                <a href="">Home</a>
+                                    <svg class=" mx-0-50" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L1 9" stroke="gray" stroke-miterlimit="10" stroke-linejoin="round"/>
+                                    </svg>
+                                <a href="">Contato</a>
+                            </div>
+                        </div>
+                       </div>
+                    </section>
+                <?php endif; ?>
+            </div>
+        <?php elseif ($pagina_atual === "politica") : ?>
+            <div class="header-wrapper position-relative">
+                <?= $header ?>
+                <?php if (!empty($breadcrumbs)) : ?>
+                    <section class="breadcrumb-wrapper">
+                    <img class="position-relative z-index-background top-0 start-0" src="<?= asset('images/backgrounds/breadcrumb1.png') ?>" alt="">
+                       <div class="container position-relative">
+                        <div class="position-absolute conteudo-bread z-index-1 text-lg-start text-center">
+                            <h2 class="h2 p-700 text-white px-1 px-sm-0">Política de Privacidade</h2>
+                            <div class="mt-1">
+                                <a href="">Home</a>
+                                    <svg class=" mx-0-50" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L1 9" stroke="gray" stroke-miterlimit="10" stroke-linejoin="round"/>
+                                    </svg>
+                                <a href="">Política</a>
                             </div>
                         </div>
                        </div>

@@ -1,0 +1,56 @@
+.contato {
+    & .icone {
+        & img {
+            width: 70px !important;
+            height: 70px;
+        }
+    }
+
+    & .cardd {
+        height: 140px;
+        width: 100%;
+
+        @media (min-width: 992px) and (max-width: 1300px) {
+            height: 180px;
+        }
+
+        & a {
+            &:hover {
+                //color: #3C7EBF;
+            }
+        }
+    }
+}
+
+#contato {
+    .mais-empreendimentos .padding-top-border-section {
+        margin-top: 350px;
+        padding-bottom: 50px !important;
+    }
+
+    .contato-border .padding-top-border-section {
+        margin-top: -300px;
+        z-index: 0;
+        padding-bottom: 50px !important;
+    }
+
+    & .form {
+        margin-top: -220px;
+        padding-bottom: 800px;
+
+        & .mapa {
+            margin-top: -100px;
+            z-index: -5;
+            border: 3px solid #FFFFFF !important;
+            border-radius: 40px;
+            height: 550px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+
+    & .riscos3 {
+        z-index: -6;
+        top: 20%;
+    }
+}

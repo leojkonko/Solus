@@ -1,5 +1,5 @@
-<main id="produto" class="py-3 py-lg-4">
-<section class="produtos position-relative py-4">
+<main id="produto" class="py-4">
+<section class="produtos position-relative">
         <div class="">
             <div class="container">
                 <div class="row">

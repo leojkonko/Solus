@@ -62,9 +62,20 @@ body {
     }
 }
 
+.p-14 {
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
 .p-24 {
     font-size: 24px;
-    line-height: 35px;
+    line-height: 30px;
+
+    @media(max-width: 992px) {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 .p-22-l-22 {
@@ -79,8 +90,8 @@ body {
 }
 
 .p-12 {
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 10px;
+    line-height: 12px;
 }
 
 //padding

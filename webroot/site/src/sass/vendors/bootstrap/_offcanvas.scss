@@ -64,6 +64,10 @@
   transform: translateX(100%);
   padding-left: 50px;
 
+  & .btn-close {
+    margin-left: -55px !important;
+  }
+
   & ul {
     margin: 50px 0px;
     list-style: none;

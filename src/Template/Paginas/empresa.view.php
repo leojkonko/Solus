@@ -1,4 +1,4 @@
-<main id="empresa">
+<main id="empresa" class="mt-4">
     <section>
         <div class="">
             <div class="row">
@@ -8,7 +8,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex align-items-center p-lg-4 p-2">
-                    <p class="p-16 p-400 px-xl-4">
+                    <p class="p-16 p-400 px-xl-4 text-lg-start text-center">
                     A Solus Incorporadora, tem como premissa, o desejo de contribuir para a realização e concretização de sonhos.Nossa obrigação é respeitar nossos clientes, colaboradores, fornecedores, investidores e parceiros.Desde sua fundação, a Solus Incorporadora não mede esforços para ser reconhecida como uma empresafocada na alta qualidade de seus serviços prestados e produtos entregues.
                     </p>
                 </div>
@@ -124,27 +124,37 @@
     </section>
     <section class="parceiros">
         <div class="borda-redonda overflow-top">
-            <div class="conteudo-parceiros container position-relative">
-                     <div class="w-100 text-center border-section-titulo">
-                        <p class="p-16 p-400 text-warning">PARCEIROS</p>
-                        <h2 class="h2 text-primary">Imobilárias Parceiras</h2>
-                    </div>
-                    <div class="swiper parceiros-swiper mt-4">
-                        <div class="swiper-wrapper">
-                            <?php foreach(range(0,9) as $i) : ?>
-                                <div class="swiper-slide p-1">
-                                    <div class="ratio ratio-33x9">
-                                        <img class="w-100 h-100 object-fit-cover" src="<?= asset('images/banners/parceiros.png') ?>" alt="">
-                                    </div>
-                                </div>
-                            <?php endforeach; ?>
+            <div class="container-mobile-custom container">
+                <div class="conteudo-parceiros container position-relative">
+                        <div class="w-100 text-center border-section-titulo">
+                            <p class="p-16 p-400 text-warning">PARCEIROS</p>
+                            <h2 class="h2 text-primary">Imobilárias Parceiras</h2>
                         </div>
-                     <!--<div class="swiper-pagination"></div>-->
-                    <div class="swiper-button-next arrows color-primary"></div>
-                    <div class="swiper-button-prev arrows color-primary"></div>
+                        <div class="swiper parceiros-swiper my-2 mb-4">
+                            <div class="swiper-wrapper mb-4">
+                                <?php foreach(range(0,9) as $i) : ?>
+                                    <div class="swiper-slide p-1">
+                                        <div class="ratio ratio-33x9">
+                                            <img class="w-100 h-100 object-fit-cover" src="<?= asset('images/banners/parceiros.png') ?>" alt="">
+                                        </div>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        <div class="swiper-pagination color-warning block-lg"></div>
+                        <div class="swiper-button-next arrows color-primary none-lg"></div>
+                        <div class="swiper-button-prev arrows color-primary none-lg"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
+    <svg class="position- bottom-0" width="1920" height="28" viewBox="0 0 1920 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="1920" height="28" transform="matrix(1 0 0 -1 0 28)" fill="url(#paint0_linear_314_465)"/>
+        <defs>
+        <linearGradient id="paint0_linear_314_465" x1="1920" y1="14.0009" x2="-8.94267e-06" y2="13.9997" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FFBD2E"/>
+        <stop offset="1" stop-color="#FF8E2E"/>
+        </linearGradient>
+        </defs>
+    </svg>
 </main>
