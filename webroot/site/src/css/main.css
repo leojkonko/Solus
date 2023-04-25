@@ -342,6 +342,7 @@
 }
 .depoimentos .depoimentos-swiper {
   padding: 80px;
+  margin-top: -40px;
 }
 @media (max-width: 767px) {
   .depoimentos .depoimentos-swiper {
@@ -980,7 +981,7 @@ body {
 }
 
 .border-section-titulo {
-  margin-top: -120px;
+  margin-top: -95px;
   margin-bottom: 20px;
 }
 

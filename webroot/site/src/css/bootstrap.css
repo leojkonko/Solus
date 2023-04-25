@@ -3662,10 +3662,11 @@ input[type=checkbox]:checked + label {
 .page-link {
   position: relative;
   display: block;
-  color: #0d6efd;
+  color: #303030;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: none !important;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 0px 10px;
 }
 @media (prefers-reduced-motion: reduce) {
   .page-link {
@@ -3692,8 +3693,9 @@ input[type=checkbox]:checked + label {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #0d6efd;
+  background: #FFBD2E;
   border-color: #0d6efd;
+  border-radius: 50%;
 }
 .page-item.disabled .page-link {
   color: #6c757d;

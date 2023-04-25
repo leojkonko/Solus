@@ -25,5 +25,32 @@
                 <?php endforeach; ?>
             </div>
         </div>
+        <div class="col-12 m-auto d-flex justify-content-center my-2">
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                    <span class="page-link">
+                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 1L1 6L6 11" stroke="#3C7EBF" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                    <span class="page-link">2</span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                    <a class="page-link" href="#">
+                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11L6 6L1 1" stroke="#3C7EBF" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </section>
 </main>
