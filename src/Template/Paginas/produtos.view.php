@@ -22,7 +22,7 @@
                                 id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact2" aria-selected="false">Entregues</button>
                             </li>
                         </ul>
-                        <div class="tab-content w-100" id="pills-tabContent">
+                        <div class="tab-content w-100" id="pills-tabContent" data-aos="fade-down">
                             <div class="tab-pane fade show active w-100" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <?php foreach(range(0,3) as $i) : ?>    
                                     <div class="row my-2 mx-1 mx-md-0">

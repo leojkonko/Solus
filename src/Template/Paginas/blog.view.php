@@ -1,5 +1,5 @@
 <main id="blog" class="py-3 py-lg-4">
-    <section class="blog">
+    <section class="blog" data-aos="fade-down">
         <div class="container">
             <div class="row">
             <div class="col-12 text-center text-xl-start d-xl-flex justify-content-start align-items-center gap-4 my-2 filtros">

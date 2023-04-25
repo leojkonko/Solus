@@ -25,7 +25,7 @@
     <section class="historia py-lg-4 position-relative py-2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="col-lg-6 d-flex align-items-center justify-content-center" data-aos="fade-right">
                     <div class="ratio ratio-16x9">
                         <img class="" src="<?= asset('images/banners/historia.png') ?>" alt="">
                         <p class="d-none d-lg-block sombra-amarela"></p>
@@ -47,7 +47,7 @@
         </div>
     </section>
     
-    <section class="empreendimentos position-relative bg-secondary ">
+    <section class="empreendimentos position-relative bg-secondary " >
         <div class="padding-top-border-section">
             <!--<svg class="riscos" width="772" height="519" viewBox="0 0 772 519" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M1331.38 -811.833C1224.93 -918.57 1098.02 -972 946.954 -972H547.533C396.092 -972 268.446 -918.941 161.62 -811.833C55.1653 -705.096 2 -578.322 2 -427.555V-27.4453C2 123.322 55.1653 250.096 161.62 356.833C268.074 463.57 395.101 517 546.046 517H945.467C1096.91 517 1224.55 463.941 1331.38 356.833C1437.96 250.096 1491 123.322 1491 -27.4453V-427.555C1491.12 -578.322 1437.96 -705.096 1331.38 -811.833ZM1201.87 -27.4453C1201.87 42.0636 1175.85 102.791 1126.65 151.893C1077.08 201.365 1015.61 226.967 945.591 226.967H546.046C476.77 226.967 416.664 200.623 367.589 152.14C317.893 103.162 291.125 42.4347 291.125 -27.4453V-427.555C291.125 -497.064 317.15 -557.791 366.35 -606.893C415.921 -656.365 477.389 -681.967 547.409 -681.967H946.83C1016.11 -681.967 1076.21 -655.623 1125.29 -607.14C1174.98 -558.162 1201.75 -497.435 1201.75 -427.555V-227.438L1201.87 -27.4453Z" stroke="black" stroke-opacity="0.15" stroke-width="3"/>
@@ -59,7 +59,7 @@
                         <p class="p-16 p-400 text-warning">DESTAQUES</p>
                         <h2 class="h2 text-primary">Empreendimentos</h2>
                     </div>
-                    <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="col-12 d-flex justify-content-center align-items-center flex-column" data-aos="fade-up-right">
                         <ul class="nav nav-pills mb-3 w-100" id="pills-tab" role="tablist">
                             <li class="nav-item caxias" role="presentation">
                                 <button class="nav-link active rounded-36 text-white p-700 p-24" id="pills-home-tab" 
@@ -231,7 +231,7 @@
                         <p class="p-16 p-400 text-warning">DEPOIMENTOS</p>
                         <h2 class="h2 text-primary">Quem confia</h2>
                     </div>
-                    <div class="swiper depoimentos-swiper p-3">
+                    <div class="swiper depoimentos-swiper p-3" data-aos="fade-down">
                         <div class="swiper-wrapper mb-2 mb-md-0">
                             <?php foreach(range(0,9) as $i) : ?>
                                 <div class="swiper-slide p-0">
@@ -274,7 +274,7 @@
                     <p class="p-16 p-400 text-warning">ÚLTIMAS NOTÍCIAS</p>
                     <h2 class="h2 text-primary">Blog</h2>
                 </div>
-                <div class="swiper blog-swiper mt-3">
+                <div class="swiper blog-swiper mt-3" data-aos="fade-left">
                     <div class="swiper-wrapper mb-4">
                         <?php foreach(range(0,9) as $i) : ?>
                             <div class="swiper-slide">

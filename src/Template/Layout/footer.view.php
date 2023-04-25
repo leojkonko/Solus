@@ -166,6 +166,13 @@
 /* ==== Arquivo para o pessoal do back end ==== 
 <script src="<?= asset('js/custom.js') ?>"></script>  
 */ ?>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js" ></script>
+  <script>
+    AOS.init();
+  </script>
+
+
 <script>
     function alterarInput(){
         var checkbox = document.getElementById("checkbox-detalhe");

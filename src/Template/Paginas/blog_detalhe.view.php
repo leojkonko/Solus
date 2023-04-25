@@ -1,5 +1,5 @@
 <main id="post">
-    <section class="blog-detalhe py-4 my-1">
+    <section class="blog-detalhe py-4 my-1" data-aos="fade-down">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 m-auto">

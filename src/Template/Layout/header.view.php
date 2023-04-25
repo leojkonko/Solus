@@ -41,7 +41,13 @@
     /* ==== Arquivo para o pessoal do back end ==== 
     <link rel="stylesheet" href="webroot/site/dist/css/custom.css"> 
     */ ?>
+    <?php
+    /* ==== Arquivo para o pessoal do back end ==== 
+    Animações
+    */ ?>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+      
     <?php /* Fonte temporária */ ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

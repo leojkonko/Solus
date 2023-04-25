@@ -1,5 +1,5 @@
 <main id="contato">
-    <section class="contato my-4">
+    <section class="contato my-4" data-aos="fade-down">
         <div class="container pe-2 d-flex">
             <div class="row">
                 <div class="col-lg-4">
@@ -37,7 +37,7 @@
           </div>
     </section>
     
-    <section class="mais-empreendimentos empreendimentos position-relative bg-secondary ">
+    <section class="mais-empreendimentos empreendimentos position-relative bg-secondary " data-aos="fade-down">
         <div class="padding-top-border-section">
             <div class="border-section position-relative z-index-background"></div>
         </div>
@@ -90,7 +90,7 @@
             <div class="border-section position-relative z-index-background"></div>
         </div>
     </section>
-    <svg class="position-relative bottom-0" width="1920" height="28" viewBox="0 0 1920 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="position-relative bottom-0" width="1920" height="28" viewBox="0 0 1920 28" fill="none" xmlns="http://www.w3.org/2000/svg" data-aos="fade-down">
         <rect width="1920" height="28" transform="matrix(1 0 0 -1 0 28)" fill="url(#paint0_linear_314_465)"/>
         <defs>
         <linearGradient id="paint0_linear_314_465" x1="1920" y1="14.0009" x2="-8.94267e-06" y2="13.9997" gradientUnits="userSpaceOnUse">

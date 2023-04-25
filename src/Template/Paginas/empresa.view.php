@@ -1,9 +1,9 @@
-<main id="empresa" class="mt-4">
+<main id="empresa" class="mt-0">
     <section>
         <div class="">
             <div class="row">
-                <div class="col-lg-6 d-flex align-items-center">
-                    <div class="ratio ratio-21x9">
+                <div class="col-lg-6 p-0 d-flex align-items-center">
+                    <div class="ratio ratio-21x9 w-100 h-100" data-aos="flip-left">
                     <img class="object-fit-cover w-100 h-100" src="<?= asset('images/banners/empresa.png') ?>" alt="">
                     </div>
                 </div>
@@ -93,7 +93,7 @@
         <img class="criancas" src="<?= asset('images/banners/compromisso.png') ?>" alt="">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 conteudo-compromisso">
+                    <div class="col-12 conteudo-compromisso" data-aos="fade-down">
                         <h2 class="h2 p-700 text-primary pb-2 pb-sm-0">Compromisso socioambiental</h2>
                         <p class="mt-2 p-16 p-400">Trabalhamos constantemente, na busca de melhorias e tecnologias que otimizem materiais, espaços e pessoas. A Solus Incorporadora possui no seu planejamento 
                             estratégico ações em prol do desenvolvimento social de seus parceiros, colaboradores e da comunidade em que está inserida.
@@ -130,7 +130,7 @@
                             <p class="p-16 p-400 text-warning">PARCEIROS</p>
                             <h2 class="h2 text-primary">Imobilárias Parceiras</h2>
                         </div>
-                        <div class="swiper parceiros-swiper my-2 mb-4">
+                        <div class="swiper parceiros-swiper my-2 mb-4" data-aos="fade-down">
                             <div class="swiper-wrapper mb-4">
                                 <?php foreach(range(0,9) as $i) : ?>
                                     <div class="swiper-slide p-1">

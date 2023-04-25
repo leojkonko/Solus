@@ -3,7 +3,7 @@
         <div class="container"> 
             <div class="row my-2 mx-1 mx-md-0">
                 <div class="col-lg-8 ps-0 p-0">
-                    <div class="swiper h-100 detalhes-swiper">
+                    <div class="swiper h-100 detalhes-swiper" data-aos="flip-left">
                         <div class="swiper-wrapper">
                             <?php foreach(range(0,5) as $i) : ?>
                                 <div class="swiper-slide flex-column d-flex  pe-md-3, pe-lg-0">
@@ -47,7 +47,7 @@
             </div>
         </div>
     </section>
-    <section class="personalizar my-4">
+    <section class="personalizar my-4" data-aos="fade-up-left">
         <div class="container">
             <div class="row p-1">
                 <div class="col-lg-7 bg-secondary d-flex align-items-center flex-column p-lg-4 p-2 rounded-36-left rounded-36-top">
@@ -75,7 +75,7 @@
             </div>
         </div>
     </section>
-    <section class="descricao my-4">
+    <section class="descricao my-4" data-aos="fade-down-right">
         <div class="container">
             <h2 class="p-22-l-22 p-700 text-primary w-100 text-lg-start text-center">Descrição</h2>
             <p class="p-400 p-16 mt-2 px-1 text-lg-start text-center">
@@ -107,7 +107,7 @@
             </div>
         </div>
     </section>
-    <section class="my-4">
+    <section class="my-4" data-aos="fade-up-left">
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 bg-secondary d-flex align-items-center flex-column p-lg-4 p-2 rounded-36-left rounded-36-top">
@@ -126,7 +126,7 @@
             </div>
         </div>
     </section>
-    <section class="parceiros my-4">
+    <section class="parceiros my-4" data-aos="fade-down">
         <div class="container position-relative">
             <div class="w-100 text-center mt-2">
                 <p class="p-16 p-400 text-warning">PARCEIROS</p>
@@ -148,7 +148,7 @@
             </div>
         </div>
     </section>
-    <section class="form position-relative z-index-3">
+    <section class="form position-relative z-index-3" data-aos="fade-down">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 bg-white m-lg-auto d-flex flex-column align-items-center justify-content-center py-lg-4 px-lg-4 p-2 rounded-36 shadow">
@@ -186,7 +186,7 @@
             </div>
         </div>
     </section>
-    <section class="mais-empreendimentos empreendimentos position-relative bg-secondary ">
+    <section class="mais-empreendimentos empreendimentos position-relative bg-secondary " data-aos="fade-down">
         <div class="padding-top-border-section">
             <div class="border-section position-relative z-index-background"></div>
             <div class="container">
