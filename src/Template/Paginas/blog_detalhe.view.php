@@ -1,5 +1,5 @@
 <main id="post">
-    <section class="blog-detalhe py-4">
+    <section class="blog-detalhe py-4 my-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 m-auto">
@@ -36,7 +36,7 @@
                     o Residencial Aventine possui aproveitamento inteligente dos espaços proporcionando o bem-estar que você deseja em todos os ambientes, seja no seu apartamento ou na área de lazer.
                     </p>
                     <p class="p-400 p-16 text-center mt-2">Compartilhe:
-                            <div class="d-flex gap-1 justify-content-xl-start justify-content-center w-100  mt-1">
+                            <div class="d-flex gap-1 justify-content-center w-100  mt-1">
                                 <a href="" target="_blank">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_54_828)">
