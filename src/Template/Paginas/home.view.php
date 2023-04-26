@@ -72,15 +72,20 @@
                         </ul>
                         <div class="tab-content w-100" id="pills-tabContent">
                             <div class="tab-pane fade show active w-100" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <div class="swiper empreendimentos-swiper">
+                                <div class="swiper empreendimentos-swiper px-1">
                                     <div class="swiper-wrapper mb-4 p-sm-1">
                                         <?php foreach(range(0,9) as $i) : ?>
-                                            <div class="swiper-slide flex-column d-flex col-lg-6 col-12 pe-md-3 pe-lg-0">
+                                            <div class="swiper-slide flex-column d-flex col-lg-6 col-12 pe-md-3 pe-lg-0 px-sm-2 px-md-0 px-1">
                                                 <div class="row">
-                                                    <div class="col-lg-6 bg-white rounded-36-left p-s p-sm-4 p-md-2 text-center text-sm-start">
+                                                    <div class="col-lg-6 ps-0 pe-lg-3 p-0 d-block d-lg-none">
+                                                        <div class="ratio ratio-6x9 h-100 w-100">
+                                                            <img class="w-100 h-100 object-fit-cover rounded-36-right rounded-36-top" src="<?= asset('images/banners/empreendimentos.png') ?>" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 bg-white rounded-36-left rounded-36-bottom p-s p-sm-4 p-md-2 text-center text-sm-start">
                                                         <div class="d-xl-flex d-lg-block gap-1 m-auto pt-2 pt-sm-0 position-lg-absolute">
-                                                            <button class="mb-lg-0-50 mb-xl-0 btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-warning">ENTREGA EM JUNHO</button>
-                                                            <button class=" btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-warning">ÚLTIMAS UNIDADES</button>
+                                                            <button class="mb-lg-0-50 mb-xl-0 btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-primary">ENTREGA EM JUNHO</button>
+                                                            <button class=" btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-primary">ÚLTIMAS UNIDADES</button>
                                                         </div>
                                                         <h2 class="p-700 h2-32 text-dark mt-2">
                                                         Zarah Ian Residence
@@ -131,7 +136,7 @@
                                                             Detalhes
                                                         </button>
                                                     </div>
-                                                    <div class="col-lg-6 ps-0 pe-lg-3 p-0">
+                                                    <div class="col-lg-6 ps-0 pe-lg-3 p-0 d-none d-lg-block">
                                                         <div class="ratio ratio-6x9 h-100 w-100">
                                                             <img class="w-100 h-100 object-fit-cover rounded-36-right" src="<?= asset('images/banners/empreendimentos.png') ?>" alt="">
                                                         </div>
@@ -148,12 +153,17 @@
                                 <div class="swiper empreendimentos-swiper">
                                     <div class="swiper-wrapper mb-4 p-sm-1">
                                         <?php foreach(range(0,9) as $i) : ?>
-                                            <div class="swiper-slide flex-column d-flex col-lg-6 col-12 pe-md-3 pe-lg-0">
+                                            <div class="swiper-slide flex-column d-flex col-lg-6 col-12 pe-md-3 pe-lg-0 px-sm-2 px-md-0 px-1">
                                                 <div class="row">
+                                                <div class="col-lg-6 ps-0 pe-lg-3 p-0 d-block d-lg-none">
+                                                        <div class="ratio ratio-6x9 h-100 w-100">
+                                                            <img class="w-100 h-100 object-fit-cover rounded-36-right rounded-36-top" src="<?= asset('images/banners/empreendimentos.png') ?>" alt="">
+                                                        </div>
+                                                    </div>
                                                     <div class="col-lg-6 bg-white rounded-36-left p-s p-sm-4 p-md-2 text-center text-sm-start">
                                                         <div class="d-xl-flex d-lg-block gap-1 m-auto pt-2 pt-sm-0 position-lg-absolute">
-                                                            <button class="mb-lg-0-50 mb-xl-0 btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-warning">ENTREGA EM JUNHO</button>
-                                                            <button class=" btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-warning">ÚLTIMAS UNIDADES</button>
+                                                            <button class="mb-lg-0-50 mb-xl-0 btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-primary">ENTREGA EM JUNHO</button>
+                                                            <button class=" btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-primary">ÚLTIMAS UNIDADES</button>
                                                         </div>
                                                         <h2 class="p-700 h2-32 text-dark mt-2">
                                                         HEHEHEE
@@ -204,7 +214,7 @@
                                                             Detalhes
                                                         </button>
                                                     </div>
-                                                    <div class="col-lg-6 ps-0 pe-lg-3 p-0">
+                                                    <div class="col-lg-6 ps-0 pe-lg-3 p-0 d-none d-lg-block">
                                                         <div class="ratio ratio-6x9 h-100 w-100">
                                                             <img class="w-100 h-100 object-fit-cover rounded-36-right" src="<?= asset('images/banners/empreendimentos.png') ?>" alt="">
                                                         </div>
@@ -269,7 +279,7 @@
             </div>
         </div>
         <div class="container position-relative">
-            <div class="row px-xl-2 px-xxl-1">
+            <div class="row px-xl-2 px-xxl-1 px-1 px-sm-0">
                 <div class="w-100 text-center mt-4 pt-2">
                     <p class="p-16 p-400 text-warning">ÚLTIMAS NOTÍCIAS</p>
                     <h2 class="h2 text-primary">Blog</h2>

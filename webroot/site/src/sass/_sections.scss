@@ -115,6 +115,16 @@ body {
     line-height: 40px;
 }
 
+.hover-amarelo:hover {
+    background-color: #FF8E2E !important;
+    border-color: #FF8E2E !important;
+    color: white !important;
+}
+
+.hover-amarelo:active {
+    color: white !important;
+}
+
 //swiper arrows
 .arrows {
     --swiper-theme-color: white;

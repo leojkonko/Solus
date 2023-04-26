@@ -32,7 +32,7 @@
         }
     }
 
-    & .filtros {
+    .filtros {
         & button {
             background-color: #fff;
             font-weight: 400;
@@ -47,7 +47,7 @@
                 border: none !important;
                 padding: 26px 64px;
                 height: 80px;
-                opacity: 0.6;
+                //opacity: 0.6;
             }
         }
 
@@ -66,12 +66,12 @@
     }
 
     & .card {
-        transition: transform 0.2s ease-in-out;
-        transform: scaleY(1.0);
+        // transition: margin-top 0.2s ease-in-out;
+        margin-top: 0px;
 
         &:hover {
-            transition: transform 0.2s ease-in-out;
-            transform: scaleY(1.1);
+            transition: margin-top 0.2s ease-in-out;
+            //   margin-top: -30px;
         }
     }
 

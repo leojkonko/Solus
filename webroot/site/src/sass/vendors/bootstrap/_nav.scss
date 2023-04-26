@@ -29,6 +29,12 @@
 
     &:hover,
     &:focus {
+      background: linear-gradient(180deg, #FFBD2E 0%, #FF8E2E 100%) !important;
+      font-weight: 700 !important;
+      color: white !important;
+      border: none !important;
+      padding: 26px 64px;
+      //height: 80px;
       //color: $nav-link-hover-color;
       //text-decoration: if($link-hover-decoration==underline, none, null);
     }

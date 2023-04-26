@@ -26,6 +26,7 @@
                     </div>
                 </div>
                 <div class="col-lg-9 m-auto">
+
                     <h2 class="h2 text-primary w-100 text-center mt-4">Título</h2>
                     <p class="p-16 p-400 mt-2 text-lg-start text-center px-1">
                     O projeto idealizado pela Solus Incorporadora, foi desenvolvido de acordo com os anseios e necessidades do cliente. Pensado em cada detalhe, 
@@ -77,6 +78,9 @@
                                         </defs>
                                     </svg>
                                 </a>
+                            </div>
+                            <div class="d-flex justify-content-sm-start justify-content-center">
+                                <button class="hover-amarelo btn-header btn btn-primary rounded-36 text-white p-700 p-16 mt-4 mt-sm-2">Voltar</button>
                             </div>
                         </div>
                     </p>

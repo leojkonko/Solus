@@ -25,7 +25,7 @@
                         <div class="tab-content w-100" id="pills-tabContent" data-aos="fade-down">
                             <div class="tab-pane fade show active w-100" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                 <?php foreach(range(0,3) as $i) : ?>    
-                                    <div class="row my-2 mx-1 mx-md-0">
+                                    <div class="row my-2 px-1 mx-md-0">
                                         <div class="col-lg-8 ps-0 p-0">
                                             <div class="ratio ratio-16x9 h-100 w-100">
                                                 <img class="w-100 h-100 object-fit-cover rounded-36-left rounded-36-top" src="<?= asset('images/banners/apto1.png') ?>" alt="">
@@ -101,12 +101,12 @@
                                                    </div>
                                                 </div>
                                                 <div class="d-inline-block  gap-1 mt-3 pt-sm-0">
-                                                    <button class="mb-0-50 btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-warning">ENTREGA EM JUNHO</button>
-                                                    <button class="mb-0-50 btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-warning">ÚLTIMAS UNIDADES</button>
+                                                    <button class="mb-0-50 btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-primary">ENTREGA EM JUNHO</button>
+                                                    <button class="mb-0-50 btn rounded-36 py-0-25 px-0-50 p-12 p-700 border-2 btn-outline-primary">ÚLTIMAS UNIDADES</button>
                                                 </div>
                                             <div class="mt-2">
                                                 <h2 class="p-700 h2-32 text-dark mt-2">
-                                                Zarah Ian Residenceeeeeeeee
+                                                Zarah Ian Residence
                                                 </h2>
                                                 <p class="p-16 p-400 mt-2">
                                                 Harmonia e Luminosidade, entendemos que a arte de morar bem está nos detalhes, no estilo e no conforto, transformando assim, o seu sonho de ser feliz de, entendemos que a arte de morar bem está nos detalhes, no estilo e no conforto, transformando assim, o seu sonho de ser feliz em alegria cotidiana.
@@ -226,6 +226,33 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="col-12 m-auto d-flex justify-content-center my-2">
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                    <span class="page-link">
+                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 1L1 6L6 11" stroke="#3C7EBF" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                    <span class="page-link">2</span>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                    <a class="page-link" href="#">
+                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11L6 6L1 1" stroke="#3C7EBF" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </section>
 </main>

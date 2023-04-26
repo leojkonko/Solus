@@ -280,6 +280,11 @@
 .empreendimentos .empreendimentos-swiper .swiper-slide {
   filter: drop-shadow(10px 10px 8px rgba(0, 0, 0, 0.15));
 }
+@media (max-width: 576px) {
+  .empreendimentos .empreendimentos-swiper .swiper-slide {
+    filter: drop-shadow(0px 7px 6px rgba(0, 0, 0, 0.15));
+  }
+}
 .empreendimentos .border-section-titulo {
   margin-top: -180px;
   margin-bottom: 20px;
@@ -661,6 +666,11 @@
   left: 50%;
   transform: translate(-50%);
 }
+@media (max-width: 576px) {
+  #contato .form .mapa {
+    width: 91%;
+  }
+}
 #contato .riscos3 {
   z-index: -6;
   top: 20%;
@@ -719,7 +729,6 @@
   border: none !important;
   padding: 26px 64px;
   height: 80px;
-  opacity: 0.6;
 }
 .blog .filtros .active {
   background: linear-gradient(180deg, #FFBD2E 0%, #FF8E2E 100%);
@@ -733,12 +742,10 @@
   opacity: 1;
 }
 .blog .card {
-  transition: transform 0.2s ease-in-out;
-  transform: scaleY(1);
+  margin-top: 0px;
 }
 .blog .card:hover {
-  transition: transform 0.2s ease-in-out;
-  transform: scaleY(1.1);
+  transition: margin-top 0.2s ease-in-out;
 }
 @media (max-width: 576px) {
   .blog .conteudo p {
@@ -893,6 +900,16 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
+}
+
+.hover-amarelo:hover {
+  background-color: #FF8E2E !important;
+  border-color: #FF8E2E !important;
+  color: white !important;
+}
+
+.hover-amarelo:active {
+  color: white !important;
 }
 
 .arrows {

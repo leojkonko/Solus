@@ -1,6 +1,6 @@
 <main id="contato">
     <section class="contato my-4" data-aos="fade-down">
-        <div class="container pe-2 d-flex">
+        <div class="container px-1 d-flex">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="bg-secondary rounded-36 d-flex align-items-center justify-content-center cardd px-1 mt-1 mt-lg-0">
@@ -8,7 +8,7 @@
                         <div class="d-flex flex-column ms-2">
                             <p class="p-22-l-22 text-primary p-700 m-0">Visite-nos</p>
                             <a href="">
-                                <p class="p-400 p-16 mt-0-50 text-dark">Rua Antônio Ribeiro Mendes, 2129, Santa Catarina, Caxias do Sul-RS</p>
+                                <p class="p-400 mb-0 p-16 mt-0-50 text-dark">Rua Antônio Ribeiro Mendes, 2129, Santa Catarina, Caxias do Sul-RS</p>
                             </a>
                         </div>
                     </div>
@@ -19,7 +19,7 @@
                         <div class="d-flex flex-column ms-2">
                             <p class="p-22-l-22 text-primary p-700 m-0">Envie-nos um email</p>
                             <a href="">
-                                <p class="p-400 p-16 mt-0-50 text-dark">contato@solus.com.br</p>
+                                <p class="p-400 mb-0 p-16 mt-0-50 text-dark">contato@solus.com.br</p>
                             </a>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                             <img width="50px" src="<?= asset('images/icones/phone.png') ?>" alt="">
                         <div class="d-flex flex-column ms-2">
                             <p class="p-22-l-22 text-primary p-700 m-0">Ligue para a gente</p>
-                            <p class="p-400 p-16 mt-0-50">(54) 3066-1818</p>
+                            <p class="p-400 mb-0 p-16 mt-0-50">(54) 3066-1818</p>
                         </div>
                     </div>
                 </div>          
@@ -43,7 +43,7 @@
         </div>
     <section class="form position-relative z-index-1">
         <div class="container position-relative">
-            <div class="row">
+            <div class="row px-1">
                 <div class="col-lg-8 bg-white m-lg-auto d-flex flex-column align-items-center justify-content-center py-lg-4 px-lg-4 p-2 rounded-36 shadow">
                     <h2 class="h2 text-primary">Entre em contato</h2>
                     <p class="p-16 p-400 ">

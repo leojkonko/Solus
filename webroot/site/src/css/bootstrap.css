@@ -2055,6 +2055,11 @@ label {
   margin-top: 6px;
   outline: 2px solid #fff;
 }
+@media (max-width: 500px) {
+  label {
+    width: 30px;
+  }
+}
 
 input[type=checkbox]:checked + .label {
   background-color: #3C7EBF;
@@ -3391,6 +3396,13 @@ input[type=checkbox]:checked + label {
   .nav-link {
     transition: none;
   }
+}
+.nav-link:hover, .nav-link:focus {
+  background: linear-gradient(180deg, #FFBD2E 0%, #FF8E2E 100%) !important;
+  font-weight: 700 !important;
+  color: white !important;
+  border: none !important;
+  padding: 26px 64px;
 }
 .nav-link.disabled {
   color: #6c757d;

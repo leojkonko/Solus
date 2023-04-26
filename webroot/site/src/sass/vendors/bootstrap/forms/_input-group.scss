@@ -27,6 +27,11 @@ input[type="checkbox"] {
 label {
   display: inline-block;
   width: 20px;
+
+  @media(max-width: 500px) {
+    width: 30px;
+  }
+
   height: 15px;
   border-radius: 50%;
   border: 2px solid #3C7EBF;

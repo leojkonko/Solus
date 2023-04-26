@@ -93,13 +93,13 @@
                     </a>
                 </div>
                 <div class="col-6 d-flex justify-content-end gap-2">
-                    <button class="btn-header btn btn-primary rounded-36 text-white p-700 p-16  d-none d-lg-inline">Área restrita
+                    <button class="hover-amarelo btn-header btn btn-primary rounded-36 text-white p-700 p-16  d-none d-lg-inline">Área restrita
                         <svg class="ms-1" width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="2" y="1" width="10" height="10" rx="5" stroke="white" stroke-width="2"/>
                             <path d="M13 17C13 13.6863 10.3137 11 7 11C3.68629 11 1 13.6863 1 17" stroke="white" stroke-width="2"/>
                         </svg>
                     </button>
-                    <button class="btn-header btn btn-primary rounded-36 text-white p-700 p-16" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <button class="hover-amarelo btn-header btn btn-primary rounded-36 text-white p-700 p-16" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                         <span class="d-none d-lg-inline">Menu</span>
                         <svg class="ms-0 ms-lg-1" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="20" height="2" rx="1" fill="white"/>
