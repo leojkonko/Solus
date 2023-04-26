@@ -11,7 +11,7 @@
                         </div>
                         <div class="swiper-slide d-block d-lg-none">
                             <div class="ratio ratio-6x9">
-                                <img class="w-100 h-100 object-fit-cover" src="<?= asset('images/backgrounds/banner.png') ?>" alt="">
+                                <img class="w-100 h-100 object-fit-cover" src="<?= asset('images/banners/empreendimentos.png') ?>" alt="">
                             </div>
                         </div>
                     <?php endforeach; ?>
